@@ -1,0 +1,97 @@
+html, body{
+    margin: 10px;
+    padding: 10px;
+    background-color:lightcyan;
+    border: 10px solid ;
+}
+
+.navbar{
+    background-color:85CDD8;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutme{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+h1{
+    text-size-adjust: 64px;
+    text-align: center;
+}
+
+.container{
+    align-content: center;
+    display: flex;
+    }
+
+.section1{
+    font-size: xx-large;
+    text-align: center;
+    border: 10px solid black;
+
+}
+
+.skills{
+    border: 10px solid black;
+    margin-top: 10px;
+}
+
+.text{
+    font-size: xx-large;
+}
+
+li{display: inline;
+    padding: 5px;
+    font-size: 48px;
+    justify-content:space-between;
+    background-color: whitesmoke;
+    
+}
+
+.hobbies{ 
+    img{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    justify-content:space-between;
+    align-content: flex-start;
+    }
+    img.page1{
+        border: 5px solid lightskyblue;
+        margin: 10px;
+    }
+    img.page2{
+        border: 5px solid lightskyblue;
+        margin: 10px;
+    }
+    img.page3{
+        border: 5px solid lightskyblue;
+        margin: 10px;
+    }
+    img.page4{
+        border: 5px solid lightskyblue;
+        margin: 10px;
+    
+    }
+}
+
+.contactme{
+   
+}
+
+form{
+    justify-content: center;
+    display: grid;
+    padding: 50px;
+}
+
+button{
+    color: aqua;
+}
